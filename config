@@ -1,0 +1,18 @@
+Host caen-remote login.engin.umich.edu
+	HostName login.engin.umich.edu
+	User riopelln
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials yes
+	# SSH multiplexing
+	ControlMaster auto
+	ControlPath ~/.ssh/%r@%h:%p
+
+Host caen oncampus-course.engin.umich.edu
+	HostName oncampus-course.engin.umich.edu
+	User riopelln
+	Compression yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials yes
+	# SSH multiplexing
+	ControlMaster auto
+	ControlPath ~/.ssh/%r@%h:%p
