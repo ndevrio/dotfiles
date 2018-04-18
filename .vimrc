@@ -42,6 +42,9 @@ Plugin 'tomasr/molokai'
 " NerdTree file tree viewer
 Plugin 'scrooloose/nerdtree'
 
+" Automating closing of quotes, parenthesis, brackets, etc.
+Plugin 'delilmitMate.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
