@@ -43,7 +43,7 @@ Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 
 " Automating closing of quotes, parenthesis, brackets, etc.
-Plugin 'delilmitMate.vim'
+Plugin 'raimondi/delimitmate'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
